@@ -35,7 +35,7 @@
         }
 
         .circle{
-            background-color:purple;
+            background:linear-gradient(to bottom right,#003438,#05b0bc);
             height: 160px;
             width: 160px;
             border-radius: 50%;
@@ -44,11 +44,16 @@
             display: inline-block;            
             margin: 20px;
         }
+
+        .container{
+            /* background-color:#003438; */
+            background: linear-gradient(to bottom right,#003438,#04464b,#003438);
+        }
     </style>
 </head>
 
 <body style="font-family:Arial">
-    <div style="background-color:#003438;padding: 20px;border-radius: 5px">
+    <div class="container" style="padding: 20px;border-radius: 5px">
         <span class="global-font free-button">Free</span>
         <h2 class="global-font">Online Code Editor (JQuery)</h2>
 
@@ -65,7 +70,7 @@
 
     </div>
 
-    <div>
+    <div style="text-align:center ;">
         <div class="circle">
             <p>
                 this <br>is a <br> dummy text
