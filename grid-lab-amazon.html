@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .amazon-category-container {
+            display: grid;
+            height: 300px;
+            width: 350px;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr 1fr;
+            gap: 5px;
+        }
+
+        .amazon-category-container-item {
+            background-color: red;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 30px;
+        }
+
+        .blue{
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="amazon-category-container">
+        <div class="amazon-category-container-item">
+            <div class="blue"></div>
+            <div>
+                Home products
+            </div>
+        </div>
+        <div class="amazon-category-container-item">
+            Furniture
+        </div>
+        <div class="amazon-category-container-item">
+            Daily essentials
+        </div>
+        <div class="amazon-category-container-item">
+            Fashion
+        </div>
+    </div>
+</body>
+
+</html>
