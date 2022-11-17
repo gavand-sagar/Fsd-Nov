@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap" rel="stylesheet">
+    <title>Online Code Editor</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            color: #73BF86;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #E4E0D8;
+        }
+
+        .container {
+            background-color: #013039;
+            padding: 2rem;
+            margin: 3rem;
+            border-radius: 6px;
+        }
+
+        .green-tag {
+            background-color: #296559;
+            display: inline-block;
+            padding: 0.15rem 0.9rem;
+            border-radius: 3px;
+            font-size: 0.8rem;
+        }
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            padding-top: 0.4rem;
+        }
+
+        li {
+            padding: 0.2rem 0.5rem;
+            border: solid #73BF86 1px;
+            border-radius: 3px;
+            margin-right: 0.4rem;
+            font-size: 0.7rem;
+        }
+
+        h1 {
+            padding: 1rem 0;
+        }
+
+        h4 {
+            padding-bottom: 0.6rem;
+            font-weight: 100;
+        }
+
+        h5 {
+            font-weight: 100;
+            padding: 0.2rem 0;
+        }
+
+        .circle-container {
+            display: flex;
+            max-width: 70vw;
+            justify-content: space-between;
+            flex-direction: row;
+            margin: auto;
+        }
+
+        .circle {
+            height: 200px;
+            width: 200px;
+            border-radius: 100px;
+            background-image: linear-gradient(to bottom right, #2B7C70, #0B6D6D, #013039);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .circle-content {
+            color: rgba(255, 255, 255, 75%);
+            max-width: 9rem;
+            line-height: 1.4rem;
+            font-size: 1rem;
+            font-weight: 100;
+            height: 7rem;
+
+        }
+
+        .number {
+            color: rgba(255, 255, 255, 75%);
+            font-size: 1.4rem;
+            font-family: 'Bungee Outline', cursive;
+            height: 3rem;
+        }
+
+        .button {
+            padding: 1.5rem 5rem;
+            background-color: #013039;
+            border-bottom: solid #73BF86 3px;
+            border-radius: 5px;
+            display: inline-block;
+            position: absolute;
+            bottom: 2rem;
+            right: 2rem;
+            color: #fff;
+            font-size: 1.2rem;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="green-tag">Free</div>
+        <h1>Online Code Editor (JQuery)</h1>
+        <h4>Beginner</h4>
+        <h4>20 hours</h4>
+        <h5>Skills</h5>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JQuery</li>
+            <li>Web development</li>
+            <li>Website hosting</li>
+        </ul>
+    </div>
+    <div class="circle-container">
+        <div class="circle">
+            <div class="number">1</div>
+            <div class="circle-content">Create the structural aspect of a code editor using HTML, CSS.</div>
+        </div>
+        <div class="circle">
+            <div class="number">2</div>
+            <div class="circle-content">Implementation of core functionalities and other small features using JQuery
+            </div>
+        </div>
+        <div class="circle">
+            <div class="number">3</div>
+            <div class="circle-content">Publish to GitHub and host your developed code editor.</div>
+        </div>
+    </div>
+    <div class="button">View the Project</div>
+</body>
+
+</html>
